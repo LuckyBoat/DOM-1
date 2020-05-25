@@ -53,7 +53,7 @@ window.dom = {
       }
     } else if (arguments.length === 1) {
       if ("innerText" in node) {
-        //适配
+        //也是适配
         return node.innerText; //ie
       } else {
         return node.textContent; //firefox chrome 一般都有两种方式

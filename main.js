@@ -14,7 +14,7 @@ dom.attr(test, "title", "Hi,I'm fine!");
 const title = dom.attr(test, "title");
 console.log(`title: ${title}`);
 
-dom.text(test, "你好，我实现了text");
+dom.text(test, "你好啊，我实现了text");
 
 dom.style(test, { border: "1px solid red", color: "blue" });
 console.log(dom.style(test, "border"));
